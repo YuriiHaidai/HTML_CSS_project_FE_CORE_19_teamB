@@ -1,0 +1,36 @@
+@mixin pseudo($display: block, $content:‘’){
+    display: $display;
+    content: $content;
+ }
+ 
+ @mixin flex($type){
+    display: flex;
+ 
+    @if $type==‘one’{
+    flex-direction: column;
+    }
+    @if $type==‘two’{
+        justify-content: space-between;
+    }
+    @if $type==‘three’{
+        flex-direction: column;
+        align-content: center;
+    }
+    @if $type==‘four’{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    @if $type==‘five’{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ 
+ }
+ 
+ @mixin pseudo-icons($baseclass, $list, $path, $ext){
+    @each $icon in $list{
+    .#{$baseclass}#{$icon}::before{
+        background-image: url(#{$path}#{$icon}.#{$ext});
+     }
+    }
+ }
