@@ -35,7 +35,7 @@
         margin-left: 56px;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         margin-left: 0;
     }
 }
@@ -62,11 +62,11 @@
         }
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         width: auto;
         justify-content: space-between;
         .section4__list-items-text {
-            font-size: 18px;
+            font-size: $base-font-size;
         }
     }
 }
@@ -123,7 +123,7 @@
             height: 259px;
         }
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1200px) {
         width: 281px;
         margin-bottom: 0;
     }
