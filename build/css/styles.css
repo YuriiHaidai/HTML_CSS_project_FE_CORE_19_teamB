@@ -763,7 +763,7 @@ template {
   content: "";
   width: 13px;
   height: 17px;
-  background-image: url(/images/icon-quote.svg);
+  background-image: url(images/icon-quote.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
