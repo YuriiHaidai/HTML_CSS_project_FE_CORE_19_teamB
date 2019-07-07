@@ -1,5 +1,5 @@
 .section4 {
-    padding: 0 0 75px 0;
+    padding: 50px 0 75px 0;
 }
 
 .section4__title {
@@ -7,6 +7,8 @@
     text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 27px;
+    display: flex;
+    align-items: center;
     
     span {
         display: flex;
