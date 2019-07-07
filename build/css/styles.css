@@ -377,28 +377,28 @@ template {
 
 @font-face {
   font-family: 'Open_sans';
-  src: url(../../fonts/Open_Sans/OpenSans-Bold.ttf);
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open_sans';
-  src: url(../../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url(../../fonts/Ubuntu/Ubuntu-Bold.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
