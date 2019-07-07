@@ -1,0 +1,147 @@
+.footer {
+    background: $footer-color;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .anchor {
+        width: 66px;
+        height: 66px;
+        background-color: $footer-anchor;
+        background-image: url(../images/icon-up-arrow.svg);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 50%;
+        box-shadow: 0px 7px 12px 0px rgba(0,0,0,.8);
+    }
+}
+
+.container {
+    width: 320px;
+
+    @media (min-width: 768px){
+        width: 720px;
+    }
+
+    @media (min-width: 1200px){
+        width: auto;
+    }
+}
+
+.container-footer {
+    padding-left: 50px;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-contacts{
+    @media (min-width: 768px){
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media (min-width: 1200px){
+        width: auto;
+        padding-bottom: 30px;
+    }
+}
+
+.footer-adress,
+.footer-phone {
+    font-family: $font-text;
+    color: $footer-text;
+
+    @media (max-width: 767px) {
+        margin: 0 50px 30px 0;
+    }
+
+    @media (min-width: 768px) {
+        width: 32%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 25%;
+    }
+
+}  
+
+.footer-adress p,
+.footer-phone p{
+    margin-bottom: 5px;
+}
+
+.footer-soc-cont{
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: center;
+        width: 32%;
+    }
+
+    @media (max-width: 1199px){
+        flex-wrap: wrap;
+    }
+
+    @media (min-width: 1200px) {
+        width: 50%;
+    }
+}
+
+.button {
+    @extend %button;
+}  
+
+.footer-social {
+    padding-bottom: 30px;
+
+    @media (min-width: 768px){
+        margin: 0 auto;
+    }
+}
+
+.footer-social__icon-telegram,
+.footer-social__icon-facebook,
+.footer-social__icon-youtube {
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+}
+
+.footer-small {
+    background-color: $footer-color-line;
+}
+
+.footer-smal__section {
+    padding: 25px 0;
+    font-family: $font-title;
+    font-weight: 900;
+    color: $footer-text-line;
+    font-size: 12px;
+
+    @media (min-width: 768px){
+        width: 560px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer-small__policy,
+.footer-small__responsibility,
+.footer-small__agree {
+    display: block;
+    text-decoration: none;
+    color: $footer-policy;
+
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+    }
+}
