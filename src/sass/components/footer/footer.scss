@@ -2,6 +2,19 @@
     background: $footer-color;
     margin: 0 auto;
     position: relative;
+
+    .container {
+        width: 320px;
+    
+        @media (min-width: 768px){
+            width: 720px;
+        }
+    
+        @media (min-width: 1200px){
+            width: auto;
+        }
+    }
+
     .button {
         margin: 0;
         margin-bottom: 30px;
@@ -25,20 +38,13 @@
     }
 }
 
-.container {
-    width: 320px;
 
-    @media (min-width: 768px){
-        width: 720px;
-    }
-
-    @media (min-width: 1200px){
-        width: auto;
-    }
-}
 
 .container-footer {
     padding-left: 50px;
+    @media (min-width: 1200px){
+        padding-left: 0;
+    }
 }
 
 .logo {
@@ -122,6 +128,14 @@
 
 .footer-small {
     background-color: $footer-color-line;
+    .container-footer {
+        @media (min-width: 768px){
+            padding-left: 65px;
+        }
+        @media (min-width: 1200px){
+            padding-left: 0;
+        }
+    }
 }
 
 .footer-smal__section {

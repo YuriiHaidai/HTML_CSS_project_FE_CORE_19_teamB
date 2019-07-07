@@ -55,7 +55,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 621px;
+        width: 620px;
         margin: 0 auto;
         &-items-title {
             font-size: 30px;
@@ -126,5 +126,21 @@
     @media (min-width: 1200px) {
         width: 281px;
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .section4 {
+        width: 620px;
+        margin: 0 auto;
+        .container {
+            padding: 0;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .section4 {
+        width: 1200px;
     }
 }
