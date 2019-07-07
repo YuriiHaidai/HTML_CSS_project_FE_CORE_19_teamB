@@ -7,6 +7,9 @@
 @import './helpers/mixins.scss';
 @import './base.scss';
 
-@import 'section4.scss';
+@import './components/header.scss';
+@import './section4.scss';
 @import './components/button.scss';
 @import './components/footer/footer.scss';
+
+

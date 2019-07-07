@@ -2,6 +2,10 @@
     background: $footer-color;
     margin: 0 auto;
     position: relative;
+    .button {
+        margin: 0;
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 768px){
