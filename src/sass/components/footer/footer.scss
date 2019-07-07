@@ -140,6 +140,9 @@
 .footer-small__policy,
 .footer-small__responsibility,
 .footer-small__agree {
+    display: block;
+    text-decoration: none;
+    color: $footer-policy;
 
     @media (max-width: 767px) {
         margin-bottom: 10px;
