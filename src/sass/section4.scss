@@ -7,18 +7,15 @@
     text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 27px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    
     span {
         display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: $main-color;
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        align-items: center;
-        justify-content: center;
         margin-right: 10px;
         svg {
             width: 18px;
@@ -32,7 +29,6 @@
         width: 445px;
         font-size: 33px;
         margin-bottom: 73px;
-        margin-left: 56px;
     }
 
     @media (min-width: 1200px) {
